@@ -33,4 +33,4 @@ class TestDeployPositive:
                                                                                                       my_dict["username2"]),
                                 "Status: install ok installed"))
         self.save_log(start_time, "log1.txt")
-        assert all(res), "test1 FAIL"
+        assert all(res), "test2 FAIL"
